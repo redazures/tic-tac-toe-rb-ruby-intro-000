@@ -148,9 +148,6 @@ def winner(board)
   end
 end
 
-board=board
-#puts current_player(board)
-
 def play(board)
   if won?(board)
     puts "Cat's Game!"
@@ -161,6 +158,3 @@ def play(board)
     play(board)
   end
 end
-
-
-play(board)
